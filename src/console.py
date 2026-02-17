@@ -24,3 +24,7 @@ class Note:
 
     def __str__(self) -> str:
         return f"Date: {self.creation_date} {self.title}: {self.text}"
+
+class Notebook:
+    def __init__(self):
+        self.notes: list[Note]

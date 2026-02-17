@@ -31,3 +31,4 @@ class Notebook:
 
     def add_note(self, title: str, text, str, importance: str):
         codigo = len(self.notes) + 1
+        Note

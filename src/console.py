@@ -27,4 +27,6 @@ class Note:
 
 class Notebook:
     def __init__(self):
-        self.notes: list[Note]
+        self.notes: list[Note] = []
+
+    def add_note(self, title: str, text, str, importance: str):
